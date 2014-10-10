@@ -11,7 +11,6 @@
     $(document).ready(function () {
         $('form').submit(function(e){
             e.preventDefault();
-            console.log($('input[name="status"]:checked', '#reportForm').val());
             //formData
             var formData = new FormData();
             formData.append('fName', $('#fName').val());
